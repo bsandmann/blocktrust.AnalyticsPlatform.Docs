@@ -8,6 +8,6 @@
 
     <toc-element topic="Default-topic.md"/>
     <toc-element topic="TenantOverview.md"/>
-    <toc-element topic="Session.md"/>
-    <toc-element topic="Pool.md"/>
+    <toc-element topic="SessionOverview.md"/>
+    <toc-element topic="PoolOverview.md"/>
 </instance-profile>
