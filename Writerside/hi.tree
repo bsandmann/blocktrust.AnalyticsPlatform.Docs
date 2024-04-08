@@ -9,5 +9,7 @@
     <toc-element topic="Default-topic.md"/>
     <toc-element topic="TenantOverview.md"/>
     <toc-element topic="SessionOverview.md"/>
+    <toc-element topic="PRISM-DIDs.md"/>
+    <toc-element topic="INDY-DIDs.md"/>
     <toc-element topic="PoolOverview.md"/>
 </instance-profile>
