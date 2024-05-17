@@ -8,10 +8,11 @@
 
        <toc-element topic="ApplicationReference.md">
         <toc-element topic="TenantOverview.md">
+            <toc-element topic="TrustRegistryOverview.md"/>
             <toc-element topic="PoolOverview.md"/>
             <toc-element topic="SessionOverview.md"/>
         </toc-element>
-    </toc-element>
+       </toc-element>
     <toc-element topic="Example-Data.md">
         <toc-element topic="PRISM-DIDs.md"/>
         <toc-element topic="INDY-DIDs.md"/>
