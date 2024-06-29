@@ -1,0 +1,4 @@
+The DID-PRISM method is anchored on the Cardano Blockchain, an open, permissionless third-generation blockchain.
+Anyone is free to create, update, deactivate, and publish DIDs according to the specifications of the DID-PRISM v2 method. Operations based on the obsolete v1 method are no longer supported or tracked here.
+The main client is the Hyperledger Identus cloud agent, initially developed by IOG and now open-source and maintained by the community together with IOG.
+Development work is ongoing, primarily on the PreProd Network. Production use cases on the Mainnet for PRISM v2 are still rare.
