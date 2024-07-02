@@ -17,5 +17,4 @@
         <toc-element topic="PRISM-DIDs.md"/>
         <toc-element topic="INDY-DIDs.md"/>
     </toc-element>
-    <toc-element topic="Test.md"/>
 </instance-profile>
