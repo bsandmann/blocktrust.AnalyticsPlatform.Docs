@@ -1,2 +1,3 @@
 Mainnet is the production network for the *Cardano* Blockchain. While over the last year multiple production use cases have been established using the now obsolete PRISM *v1* specification, only *v2* is supported with the *Blocktrust analytics tooling*, since *v1* was not aligned with the [W3C DID spec](https://www.w3.org/TR/did-core/).
+
 Note that according to the [specification](https://github.com/input-output-hk/prism-did-method-spec/blob/main/w3c-spec/PRISM-method.md), the full DID-PRISM identifier for preprod DIDs looks identical to the ones on mainnet. To avoid confusion, a discriminator (did:prism:*mainnet*:123...) is added here. DIDs without any discriminator are always considered to be on *mainnet* only.
