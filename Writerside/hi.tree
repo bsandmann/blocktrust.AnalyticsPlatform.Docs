@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Analytics Platform Documentation"
+                 name="Internal Application Documentation"
                  start-page="ApplicationReference.md">
 
        <toc-element topic="ApplicationReference.md">
@@ -17,4 +17,26 @@
         <toc-element topic="PRISM-DIDs.md"/>
         <toc-element topic="INDY-DIDs.md"/>
     </toc-element>
+    <toc-element topic="NetworkOverview.md">
+        <toc-element topic="PrismOverview.md">
+            <toc-element topic="PrismMainnet.md"/>
+            <toc-element topic="PrismPreprod.md"/>
+        </toc-element>
+    <toc-element topic="IndyOverview.md">
+        <toc-element topic="IndyBCGovMainnet.md"/>
+        <toc-element topic="IndyBCGovTestnet.md"/>
+        <toc-element topic="IndyCANdyMainnet.md"/>
+        <toc-element topic="IndyCANdyTestnet.md"/>
+        <toc-element topic="IndyCANdyDevnet.md"/>
+        <toc-element topic="IndyIDunionMainnet.md"/>
+        <toc-element topic="IndyIDunionTestnet.md"/>
+        <toc-element topic="IndyIndicioMainnet.md"/>
+        <toc-element topic="IndyIndicioTestnet.md"/>
+        <toc-element topic="IndyIndicioDemonet.md"/>
+        <toc-element topic="IndySovrinMainnet.md"/>
+        <toc-element topic="IndySovrinBuilder.md"/>
+        <toc-element topic="IndySovrinStaging.md"/>
+    </toc-element>
+    </toc-element>
+
 </instance-profile>

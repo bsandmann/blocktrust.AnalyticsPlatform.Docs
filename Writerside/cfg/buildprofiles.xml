@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables> </variables>
+    <build-profile instance="hi">
+        <variables>
+            <primary-color>halloween</primary-color>
+            <header-logo>
+                blocktrust_logo_schwarz.svg
+            </header-logo>
+            <custom-favicons>favicon.ico</custom-favicons>
+            <noindex-content>true</noindex-content>
+        </variables>
+        <footer>
+            <link href="https://analytics.blocktrust.dev">Analtics Platform Website</link>
+            <link href="https://blocktrust.dev">Blocktrust Website</link>
+            <copyright>2024 blocktrust</copyright>
+        </footer>
+    </build-profile>
+    <build-profile instance="d">
+        <variables>
+            <primary-color>halloween</primary-color>
+            <custom-favicons>favicon.ico</custom-favicons>
+            <header-logo>
+                blocktrust_logo_schwarz.svg
+            </header-logo>
+            <noindex-content>true</noindex-content>
+        </variables>
+        <footer>
+            <link href="https://analytics.blocktrust.dev">Analytics Platform</link>
+            <link href="https://blocktrust.dev">blocktrust.dev</link>
+            <copyright>2024 blocktrust</copyright>
+        </footer>
+    </build-profile>
+
+</buildprofiles>

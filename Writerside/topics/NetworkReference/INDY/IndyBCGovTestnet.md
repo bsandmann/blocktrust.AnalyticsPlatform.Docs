@@ -1,3 +1,3 @@
-This is the documentation placeholder for Indy-BC-GOV-Testnet (BCovrinTest).
+The BCovrin TestNet, operated by the British Columbia (BC) Government, is an open decentralized identity network designed for testing and development. Originally, BCovrin had separate development and production ledgers, but these were taken down due to limited usage and the realization that the TestNet was sufficient for most needs. The BCovrin TestNet is used extensively for testing Aries pipelines and decentralized identity solutions, providing a flexible platform for experimentation. It is completely open for publishing test data.
 
 Link to [Indyscan BC-GOV Testnet)](http://test.bcovrin.vonx.io:3707/home/BCOVRIN_TEST)

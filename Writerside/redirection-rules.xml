@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="3ccdcc51">
+        <description>Created after removal of "About DocumentationPage" from Documentation Page</description>
+        <accepts>documentationpage.html</accepts>
+    </rule>
+    <rule id="735ab2b8">
+        <description>Created after removal of "PRISM" from Internal Application Documentation</description>
+        <accepts>PRISM.html</accepts>
+    </rule>
+    <rule id="b3b0702">
+        <description>Created after removal of "Indy" from Internal Application Documentation</description>
+        <accepts>Indy.html</accepts>
+    </rule>
+    <rule id="2c0f5dda">
+        <description>Created after removal of "NetworkReference" from Internal Application Documentation</description>
+        <accepts>NetworkReference.html</accepts>
+    </rule>
+    <rule id="439cdcce">
+        <description>Created after removal of "NetworkReference" from Internal Application Documentation</description>
+        <accepts>NetworkReference.html</accepts>
+    </rule>
+</rules>

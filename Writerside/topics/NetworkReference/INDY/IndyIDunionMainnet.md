@@ -1,3 +1,3 @@
-This is the documentation placeholder for Indy-IDunion-Mainnet.
+This is the primary, production-level network that IDunion uses for live SSI solutions. It’s designed for use in real-world applications across various sectors. This network is governed by a consortium of European partners, ensuring alignment with European legal standards and fit to the requirements of the member organizations.
 
 Link to [Indyscan IDunion Mainnet](https://idunion.esatus.com/home/IDunion_Produktiv)

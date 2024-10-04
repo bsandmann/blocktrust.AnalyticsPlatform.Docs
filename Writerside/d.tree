@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="d"
+                 name="Analytics Documentation"
+                 start-page="Statistics.md">
+
+    <toc-element topic="Analytics-Platform.md"/>
+    <toc-element topic="Statistics.md">
+        <toc-element topic="Networks.md">
+            <toc-element topic="Indy.md"/>
+            <toc-element topic="PRISM.md"/>
+        </toc-element>
+        <toc-element topic="Resolver.md"/>
+        <toc-element topic="OPN-OpenPrismNode.md"/>
+        <toc-element topic="Architecture.md"/>
+    </toc-element>
+    <toc-element topic="Analytics.md">
+        <toc-element topic="First-Steps.md"/>
+        <toc-element topic="Pools.md"/>
+        <toc-element topic="Sessions.md"/>
+        <toc-element topic="Trust-Registries.md"/>
+        <toc-element topic="GraphView.md">
+            <toc-element topic="DID-Properties.md"/>
+            <toc-element topic="Credential-Properties.md"/>
+            <toc-element topic="Others.md"/>
+        </toc-element>
+        <toc-element topic="Examples.md">
+            <toc-element topic="DIDs.md"/>
+            <toc-element topic="Credentials.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Development.md"/>
+</instance-profile>
