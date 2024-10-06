@@ -1,0 +1,108 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#EB6237"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-10-06T12:42:10.249788772"><title>Travelling with minor | Analytics Documentation</title><script type="application/json" id="virtual-toc-data">[{"id":"anands-passport","level":0,"title":"Anands Passport","anchor":"#anands-passport"},{"id":"malathis-passport","level":0,"title":"Malathis Passport","anchor":"#malathis-passport"},{"id":"permission","level":0,"title":"Permission","anchor":"#permission"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b419/app.css" rel="stylesheet"><link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Travelling with minor | Analytics Documentation"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Analytics Documentation Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/travelling-with-minor.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Travelling with minor | Analytics Documentation"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/travelling-with-minor.html#webpage",
+    "url": "writerside-documentation/travelling-with-minor.html",
+    "name": "Travelling with minor | Analytics Documentation",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Analytics Documentation Help"
+}</script><!-- End Schema.org --></head><body data-id="Travelling-with-minor" data-main-title="Travelling with minor" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Analytics.md|Analytics///Examples.md|Examples///Credentials.md|Credentials"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Analytics Documentation  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Travelling-with-minor" id="Travelling-with-minor.md">Travelling with minor</h1><section class="chapter"><h2 id="anands-passport" data-toc="anands-passport">Anands Passport</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://w3id.org/credentials/v1&quot;,
+    &quot;https://example.com/travel-vocab/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:05a47fe2-73c8-11e8-ac1e-7fe0051a1d75&quot;,
+  &quot;type&quot;: [&quot;VerifiableCredential&quot;, &quot;BirthCertificate&quot;],
+  &quot;issuer&quot;: &quot;did:prism:preprod:59fb983e7dd24e3e051d1786f0b934bffd8838f26fe338df86545a19381903a4&quot;,
+  &quot;expires&quot;: &quot;2020-01-01T00:00:00Z&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;id&quot;: &quot;did:example:8vFBbPrhBUyG6DEzVncBZpzBNsmRrbfsQKXQKPLskBCu&quot;,
+    &quot;citizenship&quot;: &quot;US&quot;,
+    &quot;birthDate&quot;: &quot;2017-10-01T00:00:00Z&quot;,
+    &quot;birthPlace&quot;: {
+      &quot;type&quot;: &quot;Hospital&quot;,
+      &quot;address&quot;: {
+        &quot;type&quot;: &quot;US address&quot;,
+        &quot;addressLocality&quot;: &quot;Denver&quot;,
+        &quot;addressRegion&quot;: &quot;CO&quot;,
+        &quot;postalCode&quot;: &quot;80209&quot;,
+        &quot;streetAddress&quot;: &quot;123 Main St.&quot;
+      }
+    },
+    &quot;givenName&quot;: &quot;Anand&quot;,
+    &quot;familyName&quot;: &quot;Hamal&quot;,
+    &quot;parent&quot;: [{
+      &quot;id&quot;: &quot;did:example:BcRisGnqV4QPb6bRmDCqEjyuubBarS1Y1nhDwxBMTXY4&quot;,
+      &quot;type&quot;: &quot;Person&quot;,
+      &quot;givenName&quot;: &quot;Malathi&quot;,
+      &quot;familyName&quot;: &quot;Hamal&quot;,
+      &quot;maidenName&quot;: &quot;Holla&quot;
+    }, {
+      &quot;id&quot;: &quot;did:example:BgXRjB4RPrrsUVoVNaYNwzfznKsWep7AWrZkiyVcorEN&quot;,
+      &quot;type&quot;: &quot;Person&quot;,
+      &quot;givenName&quot;: &quot;Rajesh&quot;,
+      &quot;familyName&quot;: &quot;Hamal&quot;
+    }]
+  },
+  &quot;proof&quot;: {&quot;proof by&quot;: &quot;the government&quot;}
+}
+</div></section><section class="chapter"><h2 id="malathis-passport" data-toc="malathis-passport">Malathis Passport</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://w3id.org/credentials/v1&quot;,
+    &quot;https://example.com/travel-vocab/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:9f6878c8-73c7-11e8-ab37-23a1a3504fd0&quot;,
+  &quot;type&quot;: [&quot;VerifiableCredential&quot;, &quot;PassportCredential&quot;],
+  &quot;issuer&quot;: &quot;did:prism:preprod:59fb983e7dd24e3e051d1786f0b934bffd8838f26fe338df86545a19381903a4&quot;,
+  &quot;expires&quot;: &quot;2028-01-01T00:00:00Z&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;id&quot;: &quot;did:example:BcRisGnqV4QPb6bRmDCqEjyuubBarS1Y1nhDwxBMTXY4&quot;,
+    &quot;passport&quot;: {
+      &quot;id&quot;: &quot;urn:uuid:79c181dc-73c7-11e8-8c1f-2bb1fd2d268a&quot;,
+      &quot;type&quot;: &quot;Passport&quot;,
+      &quot;traveler&quot;: {
+        &quot;id&quot;: &quot;did:example:BcRisGnqV4QPb6bRmDCqEjyuubBarS1Y1nhDwxBMTXY4&quot;,
+        &quot;givenName&quot;: &quot;Malathi&quot;,
+        &quot;familyName&quot;: &quot;Hamal&quot;,
+        &quot;citizenship&quot;: &quot;US&quot;
+      }
+    }
+  },
+  &quot;proof&quot;: {&quot;proof by&quot;: &quot;the government&quot;}
+}
+</div></section><section class="chapter"><h2 id="permission" data-toc="permission">Permission</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://w3id.org/credentials/v1&quot;,
+    &quot;https://example.com/travel-vocab/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:58c08196-73c6-11e8-b030-3bd8a829a356&quot;,
+  &quot;type&quot;: [&quot;VerifiableCredential&quot;, &quot;ChildTravelPass&quot;],
+  &quot;issuer&quot;: &quot;did:prism:preprod:937b4fd4e9700d99fa4df9f9f568790f3033468b612b6bfc0f788a2fe36195f2&quot;,
+  &quot;expires&quot;: &quot;2018-07-01T00:00:00Z&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;id&quot;: &quot;did:example:8vFBbPrhBUyG6DEzVncBZpzBNsmRrbfsQKXQKPLskBCu&quot;,
+    &quot;potentialAction&quot;: {
+      &quot;type&quot;: &quot;TravelAction&quot;,
+      &quot;agent&quot;: &quot;did:example:8vFBbPrhBUyG6DEzVncBZpzBNsmRrbfsQKXQKPLskBCu&quot;,
+      &quot;participant&quot;: &quot;did:example:BcRisGnqV4QPb6bRmDCqEjyuubBarS1Y1nhDwxBMTXY4&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: &quot;Country&quot;,
+        &quot;address&quot;: {
+          &quot;addressCountry&quot;: &quot;CA&quot;
+        }
+      }
+    }
+  },
+  &quot;proof&quot;: {&quot;signature&quot;: &quot;from the mother&quot;}
+}
+</div></section><div class="last-modified">Last modified: 06 October 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="credentials.html" class="navigation-links__prev">Credentials</a><a href="prescriptionwithtrustregistry.html" class="navigation-links__next">Prescription</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b419/app.js"></script></body></html>

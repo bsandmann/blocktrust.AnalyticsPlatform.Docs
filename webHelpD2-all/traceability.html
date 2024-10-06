@@ -1,0 +1,1160 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#EB6237"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-10-06T12:42:10.252339546"><title>Traceability | Analytics Documentation</title><script type="application/json" id="virtual-toc-data">[{"id":"commercial-invoive","level":0,"title":"Commercial Invoive","anchor":"#commercial-invoive"},{"id":"ctpat","level":0,"title":"CTPAT","anchor":"#ctpat"},{"id":"entry-number","level":0,"title":"Entry Number","anchor":"#entry-number"},{"id":"intent-to-import","level":0,"title":"Intent to Import","anchor":"#intent-to-import"},{"id":"mill-test-report","level":0,"title":"Mill Test Report","anchor":"#mill-test-report"},{"id":"multi-model-bill-of-lading","level":0,"title":"Multi Model Bill of Lading","anchor":"#multi-model-bill-of-lading"},{"id":"purchase-order","level":0,"title":"Purchase Order","anchor":"#purchase-order"},{"id":"sima-import-license","level":0,"title":"SIMA Import License","anchor":"#sima-import-license"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b419/app.css" rel="stylesheet"><link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Traceability | Analytics Documentation"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Analytics Documentation Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/traceability.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Traceability | Analytics Documentation"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/traceability.html#webpage",
+    "url": "writerside-documentation/traceability.html",
+    "name": "Traceability | Analytics Documentation",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Analytics Documentation Help"
+}</script><!-- End Schema.org --></head><body data-id="Traceability" data-main-title="Traceability" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Analytics.md|Analytics///Examples.md|Examples///Credentials.md|Credentials"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Analytics Documentation  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Traceability" id="Traceability.md">Traceability</h1><section class="chapter"><h2 id="commercial-invoive" data-toc="commercial-invoive">Commercial Invoive</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:5e45f155-c949-4005-a7e5-26ni58b6a59a&quot;,
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;CommercialInvoiceCredential&quot;
+  ],
+  &quot;issuanceDate&quot;: &quot;2022-02-23T11:55:00Z&quot;,
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+    &quot;name&quot;: &quot;Aishi Metal Shinzo Co., Ltd.&quot;,
+    &quot;location&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;address&quot;: {
+        &quot;type&quot;: [
+          &quot;PostalAddress&quot;
+        ],
+        &quot;streetAddress&quot;: &quot;1651, Shimonakano, Yoshida&quot;,
+        &quot;addressLocality&quot;: &quot;Tsubame-shi&quot;,
+        &quot;addressRegion&quot;: &quot;Niigata-ken&quot;,
+        &quot;postalCode&quot;: &quot;959-0215&quot;,
+        &quot;addressCountry&quot;: &quot;Japan&quot;
+      }
+    }
+  },
+  &quot;credentialSubject&quot;: {
+    &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+    &quot;type&quot;: [
+      &quot;Invoice&quot;
+    ],
+    &quot;portOfEntry&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;unLocode&quot;: &quot;USLGB&quot;
+    },
+    &quot;invoiceNumber&quot;: &quot;INV-1000288&quot;,
+    &quot;purchaseOrderNumbers&quot;: [
+      &quot;PO992765413&quot;
+    ],
+    &quot;destinationCountry&quot;: &quot;MX&quot;,
+    &quot;purchaseDate&quot;: &quot;2021-02-21&quot;,
+    &quot;seller&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;name&quot;: &quot;Aishi Metal Shinzo Co., Ltd.&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: [
+          &quot;Place&quot;
+        ],
+        &quot;address&quot;: {
+          &quot;type&quot;: [
+            &quot;PostalAddress&quot;
+          ],
+          &quot;streetAddress&quot;: &quot;1651, Shimonakano, Yoshida&quot;,
+          &quot;addressLocality&quot;: &quot;Tsubame-shi&quot;,
+          &quot;addressRegion&quot;: &quot;Niigata-ken&quot;,
+          &quot;postalCode&quot;: &quot;959-0215&quot;,
+          &quot;addressCountry&quot;: &quot;Japan&quot;
+        }
+      }
+    },
+    &quot;buyer&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+      &quot;name&quot;: &quot;Generic Motors of America&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: [
+          &quot;Place&quot;
+        ],
+        &quot;address&quot;: {
+          &quot;type&quot;: [
+            &quot;PostalAddress&quot;
+          ],
+          &quot;streetAddress&quot;: &quot;12 Generic Motors Dr&quot;,
+          &quot;addressLocality&quot;: &quot;Detroit&quot;,
+          &quot;addressRegion&quot;: &quot;Michigan&quot;,
+          &quot;postalCode&quot;: &quot;48232-5170&quot;,
+          &quot;addressCountry&quot;: &quot;US&quot;
+        }
+      }
+    },
+    &quot;consignee&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;Organization&quot;
+        ],
+        &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+        &quot;name&quot;: &quot;Generic Motors of America&quot;,
+        &quot;location&quot;: {
+          &quot;type&quot;: [
+            &quot;Place&quot;
+          ],
+          &quot;address&quot;: {
+            &quot;type&quot;: [
+              &quot;PostalAddress&quot;
+            ],
+            &quot;streetAddress&quot;: &quot;12 Generic Motors Dr&quot;,
+            &quot;addressLocality&quot;: &quot;Detroit&quot;,
+            &quot;addressRegion&quot;: &quot;Michigan&quot;,
+            &quot;postalCode&quot;: &quot;48232-5170&quot;,
+            &quot;addressCountry&quot;: &quot;US&quot;
+          }
+        }
+      }
+    ],
+    &quot;itemsShipped&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;TradeLineItem&quot;
+        ],
+        &quot;product&quot;: {
+          &quot;type&quot;: [
+            &quot;Product&quot;
+          ],
+          &quot;manufacturer&quot;: {
+            &quot;type&quot;: [
+              &quot;Organization&quot;
+            ],
+            &quot;name&quot;: &quot;Maxi Acero Mexicano&quot;
+          },
+          &quot;description&quot;: &quot;UNS S30400 chromium-nickel stainless steel rolls.&quot;,
+          &quot;weight&quot;: {
+            &quot;type&quot;: [
+              &quot;QuantitativeValue&quot;
+            ],
+            &quot;unitCode&quot;: &quot;lbs&quot;,
+            &quot;value&quot;: &quot;16500&quot;
+          }
+        },
+        &quot;itemCount&quot;: 5,
+        &quot;grossWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;value&quot;: &quot;82500&quot;,
+          &quot;unitCode&quot;: &quot;lbs&quot;
+        },
+        &quot;lineItemTotalPrice&quot;: {
+          &quot;type&quot;: [
+            &quot;PriceSpecification&quot;
+          ],
+          &quot;price&quot;: 5200,
+          &quot;priceCurrency&quot;: &quot;USD&quot;
+        }
+      },
+      {
+        &quot;type&quot;: [
+          &quot;TradeLineItem&quot;
+        ],
+        &quot;product&quot;: {
+          &quot;type&quot;: [
+            &quot;Product&quot;
+          ],
+          &quot;manufacturer&quot;: {
+            &quot;type&quot;: [
+              &quot;Organization&quot;
+            ],
+            &quot;name&quot;: &quot;Maxi Acero Mexicano&quot;
+          },
+          &quot;description&quot;: &quot;Galvalannealed ASTM A-653 zinc-iron alloy-coated steel sheets.&quot;,
+          &quot;weight&quot;: {
+            &quot;type&quot;: [
+              &quot;QuantitativeValue&quot;
+            ],
+            &quot;value&quot;: &quot;12680&quot;,
+            &quot;unitCode&quot;: &quot;lbs&quot;
+          }
+        },
+        &quot;itemCount&quot;: 20,
+        &quot;grossWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;value&quot;: &quot;253600&quot;,
+          &quot;unitCode&quot;: &quot;lbs&quot;
+        },
+        &quot;lineItemTotalPrice&quot;: {
+          &quot;type&quot;: [
+            &quot;PriceSpecification&quot;
+          ],
+          &quot;price&quot;: 4400,
+          &quot;priceCurrency&quot;: &quot;USD&quot;
+        }
+      }
+    ],
+    &quot;totalWeight&quot;: {
+      &quot;type&quot;: [
+        &quot;QuantitativeValue&quot;
+      ],
+      &quot;value&quot;: &quot;336100&quot;,
+      &quot;unitCode&quot;: &quot;lbs&quot;
+    },
+    &quot;totalPaymentDue&quot;: {
+      &quot;type&quot;: [
+        &quot;PriceSpecification&quot;
+      ],
+      &quot;price&quot;: 9600,
+      &quot;priceCurrency&quot;: &quot;USD&quot;
+    }
+  }
+}
+</div></section><section class="chapter"><h2 id="ctpat" data-toc="ctpat">CTPAT</h2><div class="code-block" data-lang="json">
+{
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;CTPATCertificate&quot;
+  ],
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;,
+    &quot;https://w3id.org/vc/status-list/2021/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:2385e117-8011-4n15-bcae-64e4e26856c8&quot;,
+  &quot;name&quot;: &quot;CTPAT Certificate&quot;,
+  &quot;description&quot;: &quot;In recognition of your commitment to partnership, and in appreciation for joining with us to secure the international supply chain and protect our country's security, the U.S. Customs Service is pleased to certify your membership in the Customs - Trade Partnership Against Terrorism.&quot;,
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+    &quot;name&quot;: &quot;Customs Trade Partnership Against Terrorism&quot;
+  },
+  &quot;issuanceDate&quot;: &quot;2022-01-13T09:16:46Z&quot;,
+  &quot;expirationDate&quot;: &quot;2059-01-13T09:16:46Z&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;type&quot;: [
+      &quot;CTPAT&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+    &quot;member&quot;: {
+      &quot;type&quot;: [
+        &quot;CTPATMember&quot;
+      ],
+      &quot;name&quot;: &quot;Quality Metals Inc&quot;,
+      &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+      &quot;importerOfRecord&quot;: {
+        &quot;type&quot;: [
+          &quot;CBPImporterOfRecord&quot;
+        ],
+        &quot;number&quot;: &quot;10025672&quot;,
+        &quot;identifierType&quot;: &quot;CBP&quot;
+      },
+      &quot;scac&quot;: &quot;NISC&quot;,
+      &quot;iataCarrierCode&quot;: &quot;ABZ&quot;,
+      &quot;fmcNumber&quot;: &quot;025202&quot;,
+      &quot;filerCode&quot;: &quot;HX3&quot;,
+      &quot;ibanNumber&quot;: &quot;DK9520000123456789&quot;,
+      &quot;duns&quot;: &quot;782011415&quot;,
+      &quot;url&quot;: &quot;https://quality-metals.example.com&quot;,
+      &quot;faxNumber&quot;: &quot;+1-628-555-9153&quot;,
+      &quot;location&quot;: [
+        {
+          &quot;type&quot;: [
+            &quot;Place&quot;
+          ],
+          &quot;address&quot;: {
+            &quot;type&quot;: [
+              &quot;PostalAddress&quot;
+            ],
+            &quot;name&quot;: &quot;Quality Metals&quot;,
+            &quot;streetAddress&quot;: &quot;1040 Newland Drive&quot;,
+            &quot;addressLocality&quot;: &quot;Yellowville&quot;,
+            &quot;addressRegion&quot;: &quot;Texas&quot;,
+            &quot;postalCode&quot;: &quot;28101&quot;,
+            &quot;addressCountry&quot;: &quot;US&quot;
+          }
+        }
+      ]
+    },
+    &quot;sviNumber&quot;: &quot;57118961&quot;,
+    &quot;ctpatAccountNumber&quot;: &quot;12008&quot;,
+    &quot;tradeSector&quot;: &quot;Sea Carrier&quot;,
+    &quot;tier&quot;: &quot;Certified&quot;,
+    &quot;dateOfLastValidation&quot;: &quot;2022-01-06T11:50:00Z&quot;,
+    &quot;issuingCountry&quot;: &quot;US&quot;
+  },
+  &quot;credentialStatus&quot;: {
+    &quot;id&quot;: &quot;https://api.did.actor/revocation-lists/1.json#0&quot;,
+    &quot;type&quot;: &quot;RevocationList2020Status&quot;,
+    &quot;revocationListIndex&quot;: 0,
+    &quot;revocationListCredential&quot;: &quot;https://api.did.actor/revocation-lists/1.json&quot;
+  }
+}
+</div></section><section class="chapter"><h2 id="entry-number" data-toc="entry-number">Entry Number</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;id&quot;: &quot;http://example.com/dd0c6f9a-5df6-40a3-bb34-863cd1fda606&quot;,
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;EntryNumberCredential&quot;
+  ],
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:o376CuiTpBmyMWfRRohk44dsz6MktHQbEaBSeE3Uq2VVjvV6&quot;,
+    &quot;name&quot;: &quot;Onwards A/S&quot;,
+    &quot;location&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;address&quot;: {
+        &quot;type&quot;: [
+          &quot;PostalAddress&quot;
+        ],
+        &quot;streetAddress&quot;: &quot;19 Knox St&quot;,
+        &quot;addressLocality&quot;: &quot;Toronto&quot;,
+        &quot;addressRegion&quot;: &quot;ON&quot;,
+        &quot;addressCountry&quot;: &quot;CA&quot;,
+        &quot;postalCode&quot;: &quot;M3B 1A2&quot;
+      }
+    }
+  },
+  &quot;issuanceDate&quot;: &quot;2022-11-01T10:58:45-04:00&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;id&quot;: &quot;did:example:o376CuiTpBmyMWfRRohk44dsz6MktHQbEaBSeE3Uq2VVjvV6&quot;,
+    &quot;type&quot;: [
+      &quot;EntryNumber&quot;
+    ],
+    &quot;entryNumber&quot;: &quot;12345123456&quot;
+  }
+}
+</div></section><section class="chapter"><h2 id="intent-to-import" data-toc="intent-to-import">Intent to Import</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:55791fb7-058f-409a-8a32-e6229n159144&quot;,
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;IntentToImportCredential&quot;
+  ],
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+    &quot;name&quot;: &quot;Generic Motors of America&quot;,
+    &quot;location&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;address&quot;: {
+        &quot;type&quot;: [
+          &quot;PostalAddress&quot;
+        ],
+        &quot;streetAddress&quot;: &quot;12 Generic Motors Dr&quot;,
+        &quot;addressLocality&quot;: &quot;Detroit&quot;,
+        &quot;addressRegion&quot;: &quot;Michigan&quot;,
+        &quot;postalCode&quot;: &quot;48232-5170&quot;,
+        &quot;addressCountry&quot;: &quot;US&quot;
+      }
+    }
+  },
+  &quot;issuanceDate&quot;: &quot;2022-03-03T15:20:00Z&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;type&quot;: [
+      &quot;IntentToImport&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+    &quot;importIntent&quot;: &quot;By issuing this Intent to Import Verifiable Credential and presenting it in a Traceable Presentation to US CBP, the issuing organization initiates a digital procedure for importing goods into the United States.&quot;
+  }
+}
+</div></section><section class="chapter"><h2 id="mill-test-report" data-toc="mill-test-report">Mill Test Report</h2><div class="code-block" data-lang="json">
+
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;MillTestReportCredential&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:2e604860-b308-4ada-n1s3-4a22635befea&quot;,
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:RRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeEasdfasdf33a&quot;,
+    &quot;name&quot;: &quot;Tall Steel, Inc&quot;,
+    &quot;location&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;address&quot;: {
+        &quot;type&quot;: [
+          &quot;PostalAddress&quot;
+        ],
+        &quot;streetAddress&quot;: &quot;1331 N 7th St&quot;,
+        &quot;addressLocality&quot;: &quot;Phoenix&quot;,
+        &quot;addressRegion&quot;: &quot;Arizona&quot;,
+        &quot;postalCode&quot;: &quot;78599&quot;,
+        &quot;addressCountry&quot;: &quot;US&quot;
+      }
+    },
+    &quot;phoneNumber&quot;: &quot;+1-675-555-6659&quot;,
+    &quot;faxNumber&quot;: &quot;+1-527-555-1986&quot;
+  },
+  &quot;issuanceDate&quot;: &quot;2022-06-06T08:10:00+00:00&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+    &quot;certificateNumber&quot;: &quot;202304215088&quot;,
+    &quot;certification&quot;: &quot;EN 10204.3.1&quot;,
+    &quot;purchaseOrderNumber&quot;: &quot;PO992765413&quot;,
+    &quot;meansOfTransport&quot;: &quot;Road&quot;,
+    &quot;customer&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;id&quot;: &quot;did:web:rise-higher-construction.example.com&quot;,
+      &quot;name&quot;: &quot;Rise Higher Construction, Ltd.&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: [
+          &quot;Place&quot;
+        ],
+        &quot;address&quot;: {
+          &quot;type&quot;: [
+            &quot;PostalAddress&quot;
+          ],
+          &quot;plantOrSiteName&quot;: &quot;Rise Warehouse West&quot;,
+          &quot;streetAddress&quot;: &quot;4423 Reeves Street&quot;,
+          &quot;addressLocality&quot;: &quot;Baileys Harbor&quot;,
+          &quot;addressRegion&quot;: &quot;California&quot;,
+          &quot;postalCode&quot;: &quot;98200&quot;,
+          &quot;addressCountry&quot;: &quot;US&quot;
+        }
+      }
+    },
+    &quot;productSpecification&quot;: {
+      &quot;type&quot;: [
+        &quot;SteelProduct&quot;
+      ],
+      &quot;standard&quot;: &quot;AISI/SAE&quot;,
+      &quot;grade&quot;: &quot;316&quot;,
+      &quot;heatTreatment&quot;: &quot;Min. 1900F, Quenched&quot;,
+      &quot;surfaceTreatment&quot;: &quot;Varnished&quot;,
+      &quot;productDescription&quot;: &quot;Stainless Steel Plate&quot;
+    },
+    &quot;remarks&quot;: &quot;No Mercury, Lead or Sulfor. Free from radioactive contamination.&quot;,
+    &quot;inspections&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;Inspection&quot;
+        ],
+        &quot;productIdentifier&quot;: &quot;212900-34&quot;,
+        &quot;productDimensions&quot;: {
+          &quot;type&quot;: [
+            &quot;ProductDimensions&quot;
+          ],
+          &quot;length&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;6000&quot;,
+            &quot;unitCode&quot;: &quot;MM&quot;
+          },
+          &quot;width&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;2000&quot;,
+            &quot;unitCode&quot;: &quot;MM&quot;
+          },
+          &quot;thickness&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;60&quot;,
+            &quot;unitCode&quot;: &quot;MM&quot;
+          }
+        },
+        &quot;pieces&quot;: 80,
+        &quot;perUnitWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;MeasuredValue&quot;
+          ],
+          &quot;value&quot;: &quot;3620&quot;,
+          &quot;unitCode&quot;: &quot;KG&quot;
+        },
+        &quot;totalWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;MeasuredValue&quot;
+          ],
+          &quot;value&quot;: &quot;289600&quot;,
+          &quot;unitCode&quot;: &quot;KG&quot;
+        },
+        &quot;countryOfManufacture&quot;: &quot;US&quot;,
+        &quot;countryOfMeltAndPour&quot;: &quot;US&quot;,
+        &quot;meltPractice&quot;: &quot;EAM&quot;,
+        &quot;heatNumber&quot;: &quot;61316&quot;,
+        &quot;testNumber&quot;: &quot;1205&quot;,
+        &quot;chemicalComposition&quot;: {
+          &quot;type&quot;: [
+            &quot;ChemicalComposition&quot;
+          ],
+          &quot;c&quot;: 0.0189,
+          &quot;mn&quot;: 1.568,
+          &quot;p&quot;: 0.035,
+          &quot;s&quot;: 0.0128,
+          &quot;si&quot;: 0.312,
+          &quot;al&quot;: 0.004,
+          &quot;cu&quot;: 0.4208,
+          &quot;ni&quot;: 8.286,
+          &quot;cr&quot;: 16.558,
+          &quot;mo&quot;: 2.03,
+          &quot;sn&quot;: 0.007,
+          &quot;nbCb&quot;: 0,
+          &quot;v&quot;: 0.004,
+          &quot;ti&quot;: 0.003,
+          &quot;b&quot;: 0.0014,
+          &quot;n&quot;: 0.0074,
+          &quot;ca&quot;: 0.0018,
+          &quot;pb&quot;: 0.001,
+          &quot;ce&quot;: 0.3882
+        },
+        &quot;mechanicalProperties&quot;: {
+          &quot;type&quot;: [
+            &quot;MechanicalProperties&quot;
+          ],
+          &quot;tensile&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;367.22&quot;,
+            &quot;unitCode&quot;: &quot;MPa&quot;
+          },
+          &quot;yield&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;648.71&quot;,
+            &quot;unitCode&quot;: &quot;MPa&quot;
+          },
+          &quot;hardness&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;86&quot;,
+            &quot;unitCode&quot;: &quot;HRB&quot;
+          },
+          &quot;elongation&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;32&quot;,
+            &quot;unitCode&quot;: &quot;%&quot;
+          },
+          &quot;charpy&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;3.55&quot;,
+            &quot;unitCode&quot;: &quot;J&quot;
+          },
+          &quot;reduction&quot;: {
+            &quot;type&quot;: [
+              &quot;MeasuredValue&quot;
+            ],
+            &quot;value&quot;: &quot;40&quot;,
+            &quot;unitCode&quot;: &quot;%&quot;
+          }
+        }
+      }
+    ]
+  }
+}
+</div></section><section class="chapter"><h2 id="multi-model-bill-of-lading" data-toc="multi-model-bill-of-lading">Multi Model Bill of Lading</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;id&quot;: &quot;did:key:z6MkmbqKc6KncFZUbVJwUppttTkiMAtnVJ5wzC5oVBWci3pc&quot;,
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;MultiModalBillOfLadingCredential&quot;
+  ],
+  &quot;issuanceDate&quot;: &quot;2022-03-04T13:40:00Z&quot;,
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:key:BmyMWq2Vz6MkE3UtHQo3fRRohk44dsbE76CuiTpVjvV6aBSe&quot;,
+    &quot;name&quot;: &quot;MULTI CONTAINER LINE&quot;,
+    &quot;scac&quot;: &quot;MCLI&quot;,
+    &quot;location&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;address&quot;: {
+        &quot;type&quot;: [
+          &quot;PostalAddress&quot;
+        ],
+        &quot;name&quot;: &quot;MCL Multi Container Line LTD.&quot;,
+        &quot;streetAddress&quot;: &quot;Rm. 3501, 35/F Manhatten Place, 23 Wang Tai Road&quot;,
+        &quot;addressLocality&quot;: &quot;Kowloon Bay&quot;,
+        &quot;addressRegion&quot;: &quot;Hong Kong&quot;,
+        &quot;addressCountry&quot;: &quot;HK&quot;
+      }
+    }
+  },
+  &quot;credentialSubject&quot;: {
+    &quot;type&quot;: [
+      &quot;MultiModalBillOfLading&quot;
+    ],
+    &quot;billOfLadingNumber&quot;: &quot;EX600822199A&quot;,
+    &quot;bookingNumber&quot;: [
+      &quot;EX600822199&quot;
+    ],
+    &quot;shipper&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;name&quot;: &quot;Espresso Italiano Co.&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: [
+          &quot;Place&quot;
+        ],
+        &quot;address&quot;: {
+          &quot;type&quot;: [
+            &quot;PostalAddress&quot;
+          ],
+          &quot;streetAddress&quot;: &quot;Via Vico Ferrovia 5&quot;,
+          &quot;addressLocality&quot;: &quot;Goro&quot;,
+          &quot;addressRegion&quot;: &quot;Ferrara&quot;,
+          &quot;postalCode&quot;: &quot;44020&quot;,
+          &quot;addressCountry&quot;: &quot;IT&quot;
+        }
+      },
+      &quot;email&quot;: &quot;sales@espresso-italiano.example.com&quot;,
+      &quot;phoneNumber&quot;: &quot;+39 5555 5252682&quot;
+    },
+    &quot;mainCarriageTransportMovement&quot;: {
+      &quot;type&quot;: [
+        &quot;Transport&quot;
+      ],
+      &quot;vesselNumber&quot;: &quot;MS Seven Seas&quot;,
+      &quot;voyageNumber&quot;: &quot;Atl-W0425&quot;
+    },
+    &quot;portOfLoading&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;unLocode&quot;: &quot;ITMIL&quot;
+    },
+    &quot;portOfDischarge&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;unLocode&quot;: &quot;USLGB&quot;
+    },
+    &quot;totalNumberOfPackages&quot;: 2200,
+    &quot;transportEquipmentQuantity&quot;: 2,
+    &quot;utilizedTransportEquipment&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;TransportEquipment&quot;
+        ],
+        &quot;equipmentReference&quot;: &quot;APZU4812090&quot;,
+        &quot;ISOEquipmentCode&quot;: &quot;40GP&quot;,
+        &quot;seals&quot;: [
+          {
+            &quot;type&quot;: [
+              &quot;Seal&quot;
+            ],
+            &quot;sealNumber&quot;: &quot;PTW-002290109692&quot;
+          }
+        ]
+      },
+      {
+        &quot;type&quot;: [
+          &quot;TransportEquipment&quot;
+        ],
+        &quot;equipmentReference&quot;: &quot;APZU5985096&quot;,
+        &quot;ISOEquipmentCode&quot;: &quot;40GP&quot;,
+        &quot;seals&quot;: [
+          {
+            &quot;type&quot;: [
+              &quot;Seal&quot;
+            ],
+            &quot;sealNumber&quot;: &quot;PTW-002255398220&quot;
+          }
+        ]
+      }
+    ],
+    &quot;particulars&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;ConsignmentItem&quot;
+        ],
+        &quot;marksAndNumbers&quot;: &quot;Espresso Italiano&quot;,
+        &quot;commodity&quot;: {
+          &quot;type&quot;: [
+            &quot;Commodity&quot;
+          ],
+          &quot;commodityCode&quot;: &quot;8516.71&quot;,
+          &quot;commodityCodeType&quot;: &quot;HS&quot;
+        },
+        &quot;packageQuantity&quot;: 2200,
+        &quot;netWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;unitCode&quot;: &quot;kg&quot;,
+          &quot;value&quot;: &quot;14600&quot;
+        },
+        &quot;grossWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;unitCode&quot;: &quot;kg&quot;,
+          &quot;value&quot;: &quot;15960&quot;
+        },
+        &quot;grossVolume&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;value&quot;: &quot;220&quot;,
+          &quot;unitCode&quot;: &quot;cmb&quot;
+        }
+      }
+    ],
+    &quot;freightAndCharges&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;ServiceCharge&quot;
+        ],
+        &quot;chargeCode&quot;: &quot;basicFreight&quot;,
+        &quot;paymentTerm&quot;: &quot;collect&quot;,
+        &quot;chargeText&quot;: &quot;Negotiated ocean freight&quot;,
+        &quot;rate&quot;: {
+          &quot;type&quot;: [
+            &quot;PriceSpecification&quot;
+          ],
+          &quot;price&quot;: 2250,
+          &quot;priceCurrency&quot;: &quot;USD&quot;
+        },
+        &quot;calculationBasis&quot;: &quot;Per container&quot;,
+        &quot;appliedAmount&quot;: {
+          &quot;type&quot;: [
+            &quot;PriceSpecification&quot;
+          ],
+          &quot;price&quot;: 4500,
+          &quot;priceCurrency&quot;: &quot;USD&quot;
+        }
+      }
+    ],
+    &quot;declaredValue&quot;: {
+      &quot;type&quot;: [
+        &quot;PriceSpecification&quot;
+      ],
+      &quot;price&quot;: 240000,
+      &quot;priceCurrency&quot;: &quot;USD&quot;
+    },
+    &quot;shippedOnBoardDate&quot;: &quot;2022-02-02&quot;,
+    &quot;termsAndConditions&quot;: &quot;https://terms-of-shipment.carrier.example.com&quot;
+  }
+}
+</div></section><section class="chapter"><h2 id="purchase-order" data-toc="purchase-order">Purchase Order</h2><div class="code-block" data-lang="json">
+
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;id&quot;: &quot;https://example.com/credential/123&quot;,
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;PurchaseOrderCredential&quot;
+  ],
+  &quot;issuanceDate&quot;: &quot;2019-12-11T03:50:55Z&quot;,
+  &quot;issuer&quot;: {
+    &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;name&quot;: &quot;Generic Motors of America&quot;,
+    &quot;location&quot;: {
+      &quot;type&quot;: [
+        &quot;Place&quot;
+      ],
+      &quot;address&quot;: {
+        &quot;type&quot;: [
+          &quot;PostalAddress&quot;
+        ],
+        &quot;streetAddress&quot;: &quot;12 Generic Motors Dr&quot;,
+        &quot;addressLocality&quot;: &quot;Detroit&quot;,
+        &quot;addressRegion&quot;: &quot;Michigain&quot;,
+        &quot;postalCode&quot;: &quot;48232-5170&quot;,
+        &quot;addressCountry&quot;: &quot;USA&quot;
+      }
+    }
+  },
+  &quot;credentialSubject&quot;: [
+    {
+      &quot;type&quot;: [
+        &quot;PurchaseOrder&quot;
+      ],
+      &quot;id&quot;: &quot;did:example:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U&quot;,
+      &quot;purchaseOrderNo&quot;: &quot;fe71665a-e7b3-49ba-ac89-82fc2bf1e877&quot;,
+      &quot;orderDate&quot;: &quot;2021-02-21&quot;,
+      &quot;buyer&quot;: {
+        &quot;type&quot;: [
+          &quot;Organization&quot;
+        ],
+        &quot;name&quot;: &quot;Generic Motors of America&quot;,
+        &quot;location&quot;: {
+          &quot;type&quot;: [
+            &quot;Place&quot;
+          ],
+          &quot;address&quot;: {
+            &quot;type&quot;: [
+              &quot;PostalAddress&quot;
+            ],
+            &quot;streetAddress&quot;: &quot;12 Generic Motors Dr&quot;,
+            &quot;addressLocality&quot;: &quot;Detroit&quot;,
+            &quot;addressRegion&quot;: &quot;Michigain&quot;,
+            &quot;postalCode&quot;: &quot;48232-5170&quot;,
+            &quot;addressCountry&quot;: &quot;USA&quot;
+          }
+        }
+      },
+      &quot;items&quot;: [
+        {
+          &quot;type&quot;: [
+            &quot;TradeLineItem&quot;
+          ],
+          &quot;product&quot;: {
+            &quot;type&quot;: [
+              &quot;Product&quot;
+            ],
+            &quot;id&quot;: &quot;https://aishi-metal-shinzo.example.com/products/UNS-S30400-chromium-nickel-stainless-steel-roll&quot;,
+            &quot;description&quot;: &quot;UNS S30400 chromium-nickel stainless steel roll&quot;,
+            &quot;weight&quot;: {
+              &quot;type&quot;: [
+                &quot;QuantitativeValue&quot;
+              ],
+              &quot;unitCode&quot;: &quot;lbs&quot;,
+              &quot;value&quot;: &quot;16500&quot;
+            }
+          },
+          &quot;itemCount&quot;: 5,
+          &quot;grossWeight&quot;: {
+            &quot;type&quot;: [
+              &quot;QuantitativeValue&quot;
+            ],
+            &quot;value&quot;: &quot;82500&quot;,
+            &quot;unitCode&quot;: &quot;lbs&quot;
+          },
+          &quot;lineItemTotalPrice&quot;: {
+            &quot;type&quot;: [
+              &quot;PriceSpecification&quot;
+            ],
+            &quot;price&quot;: 5200,
+            &quot;priceCurrency&quot;: &quot;USD&quot;
+          }
+        },
+        {
+          &quot;type&quot;: [
+            &quot;TradeLineItem&quot;
+          ],
+          &quot;product&quot;: {
+            &quot;type&quot;: [
+              &quot;Product&quot;
+            ],
+            &quot;id&quot;: &quot;https://aishi-metal-shinzo.example.com/products/Galvannealed-ASTM-A-653-zinc-iron-alloy-coated-steel-sheet&quot;,
+            &quot;description&quot;: &quot;Galvalannealed ASTM A-653 zinc-iron alloy-coated steel sheet&quot;,
+            &quot;weight&quot;: {
+              &quot;type&quot;: [
+                &quot;QuantitativeValue&quot;
+              ],
+              &quot;value&quot;: &quot;12680&quot;,
+              &quot;unitCode&quot;: &quot;lbs&quot;
+            }
+          },
+          &quot;itemCount&quot;: 20,
+          &quot;grossWeight&quot;: {
+            &quot;type&quot;: [
+              &quot;QuantitativeValue&quot;
+            ],
+            &quot;value&quot;: &quot;253600&quot;,
+            &quot;unitCode&quot;: &quot;lbs&quot;
+          },
+          &quot;lineItemTotalPrice&quot;: {
+            &quot;type&quot;: [
+              &quot;PriceSpecification&quot;
+            ],
+            &quot;price&quot;: 4400,
+            &quot;priceCurrency&quot;: &quot;USD&quot;
+          }
+        }
+      ],
+      &quot;totalWeight&quot;: {
+        &quot;type&quot;: [
+          &quot;QuantitativeValue&quot;
+        ],
+        &quot;value&quot;: &quot;336100&quot;,
+        &quot;unitCode&quot;: &quot;lbs&quot;
+      },
+      &quot;totalOrderAmount&quot;: {
+        &quot;type&quot;: [
+          &quot;PriceSpecification&quot;
+        ],
+        &quot;price&quot;: 9600,
+        &quot;priceCurrency&quot;: &quot;USD&quot;
+      }
+    },
+    {
+        &quot;type&quot;: [
+      &quot;PurchaseOrder&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+    &quot;purchaseOrderNo&quot;: &quot;fe71665a-e7b3-49ba-ac89-82fc2bf1e877&quot;,
+    &quot;orderDate&quot;: &quot;2021-02-21&quot;,
+    &quot;seller&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;name&quot;: &quot;Aishi Metal Shinzo Co., Ltd.&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: [
+          &quot;Place&quot;
+        ],
+        &quot;address&quot;: {
+          &quot;type&quot;: [
+            &quot;PostalAddress&quot;
+          ],
+          &quot;streetAddress&quot;: &quot;1651, Shimonakano, Yoshida&quot;,
+          &quot;addressLocality&quot;: &quot;Tsubame-shi&quot;,
+          &quot;addressRegion&quot;: &quot;Niigata-ken&quot;,
+          &quot;postalCode&quot;: &quot;959-0215&quot;,
+          &quot;addressCountry&quot;: &quot;Japan&quot;
+        }
+      }
+    },
+    &quot;items&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;TradeLineItem&quot;
+        ],
+        &quot;product&quot;: {
+          &quot;type&quot;: [
+            &quot;Product&quot;
+          ],
+          &quot;id&quot;: &quot;https://aishi-metal-shinzo.example.com/products/UNS-S30400-chromium-nickel-stainless-steel-roll&quot;,
+          &quot;description&quot;: &quot;UNS S30400 chromium-nickel stainless steel roll&quot;,
+          &quot;weight&quot;: {
+            &quot;type&quot;: [
+              &quot;QuantitativeValue&quot;
+            ],
+            &quot;unitCode&quot;: &quot;lbs&quot;,
+            &quot;value&quot;: &quot;16500&quot;
+          }
+        },
+        &quot;itemCount&quot;: 5,
+        &quot;grossWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;value&quot;: &quot;82500&quot;,
+          &quot;unitCode&quot;: &quot;lbs&quot;
+        },
+        &quot;lineItemTotalPrice&quot;: {
+          &quot;type&quot;: [
+            &quot;PriceSpecification&quot;
+          ],
+          &quot;price&quot;: 5200,
+          &quot;priceCurrency&quot;: &quot;USD&quot;
+        }
+      },
+      {
+        &quot;type&quot;: [
+          &quot;TradeLineItem&quot;
+        ],
+        &quot;product&quot;: {
+          &quot;type&quot;: [
+            &quot;Product&quot;
+          ],
+          &quot;id&quot;: &quot;https://aishi-metal-shinzo.example.com/products/Galvannealed-ASTM-A-653-zinc-iron-alloy-coated-steel-sheet&quot;,
+          &quot;description&quot;: &quot;Galvalannealed ASTM A-653 zinc-iron alloy-coated steel sheet&quot;,
+          &quot;weight&quot;: {
+            &quot;type&quot;: [
+              &quot;QuantitativeValue&quot;
+            ],
+            &quot;value&quot;: &quot;12680&quot;,
+            &quot;unitCode&quot;: &quot;lbs&quot;
+          }
+        },
+        &quot;itemCount&quot;: 20,
+        &quot;grossWeight&quot;: {
+          &quot;type&quot;: [
+            &quot;QuantitativeValue&quot;
+          ],
+          &quot;value&quot;: &quot;253600&quot;,
+          &quot;unitCode&quot;: &quot;lbs&quot;
+        },
+        &quot;lineItemTotalPrice&quot;: {
+          &quot;type&quot;: [
+            &quot;PriceSpecification&quot;
+          ],
+          &quot;price&quot;: 4400,
+          &quot;priceCurrency&quot;: &quot;USD&quot;
+        }
+      }
+    ],
+    &quot;totalWeight&quot;: {
+      &quot;type&quot;: [
+        &quot;QuantitativeValue&quot;
+      ],
+      &quot;value&quot;: &quot;336100&quot;,
+      &quot;unitCode&quot;: &quot;lbs&quot;
+    },
+    &quot;totalOrderAmount&quot;: {
+      &quot;type&quot;: [
+        &quot;PriceSpecification&quot;
+      ],
+      &quot;price&quot;: 9600,
+      &quot;priceCurrency&quot;: &quot;USD&quot;
+    }
+  }
+    ]
+}
+</div></section><section class="chapter"><h2 id="sima-import-license" data-toc="sima-import-license">SIMA Import License</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://w3id.org/traceability/v1&quot;
+  ],
+  &quot;id&quot;: &quot;urn:uuid:2c9f4c3d-0874-44ce-a3a8-617e55454fc1&quot;,
+  &quot;type&quot;: [
+    &quot;VerifiableCredential&quot;,
+    &quot;SIMASteelImportLicenseCredential&quot;
+  ],
+  &quot;issuer&quot;: {
+    &quot;type&quot;: [
+      &quot;Organization&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:E76CuiTpBmyMWq2VVjvz6MktHQsbV6aBSeE3Uo3fRRohk44d&quot;,
+    &quot;name&quot;: &quot;US Steel Import Monitoring and Analysis (SIMA)&quot;
+  },
+  &quot;issuanceDate&quot;: &quot;2023-02-28T11:23:00Z&quot;,
+  &quot;expirationDate&quot;: &quot;2024-02-28T11:23:00Z&quot;,
+  &quot;credentialSubject&quot;: {
+    &quot;type&quot;: [
+      &quot;SIMASteelImportLicense&quot;
+    ],
+    &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+    &quot;customsEntryNumber&quot;: &quot;34001239&quot;,
+    &quot;licensedCompany&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;id&quot;: &quot;did:example:quality-metals.example.com&quot;,
+      &quot;name&quot;: &quot;Maxi Acero Mexicano&quot;,
+      &quot;location&quot;: {
+        &quot;type&quot;: [
+          &quot;Place&quot;
+        ],
+        &quot;address&quot;: {
+          &quot;type&quot;: [
+            &quot;PostalAddress&quot;
+          ],
+          &quot;streetAddress&quot;: &quot;Avenida Carlos 100&quot;,
+          &quot;addressLocality&quot;: &quot;Hernádez de Mara&quot;,
+          &quot;addressRegion&quot;: &quot;Nuevo Leon&quot;,
+          &quot;postalCode&quot;: &quot;32200&quot;,
+          &quot;addressCountry&quot;: &quot;Mexico&quot;
+        }
+      }
+    },
+    &quot;importer&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;name&quot;: &quot;American Prime Steel Inc.&quot;
+    },
+    &quot;exporter&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;name&quot;: &quot;Maxi Acero Mexicano&quot;
+    },
+    &quot;manufacturer&quot;: {
+      &quot;type&quot;: [
+        &quot;Organization&quot;
+      ],
+      &quot;name&quot;: &quot;Maxi Acero Mexicano&quot;
+    },
+    &quot;countryOfOrigin&quot;: &quot;MX&quot;,
+    &quot;countryOfExportation&quot;: &quot;MX&quot;,
+    &quot;expectedPortOfEntry&quot;: &quot;USMOB&quot;,
+    &quot;expectedDateOfExport&quot;: &quot;2022-04-02T08:00:00Z&quot;,
+    &quot;expectedDateOfImport&quot;: &quot;2022-04-09T10:30:00Z&quot;,
+    &quot;productInformation&quot;: [
+      {
+        &quot;type&quot;: [
+          &quot;SIMASteelImportProductSpecifier&quot;
+        ],
+        &quot;commodity&quot;: {
+          &quot;type&quot;: [
+            &quot;Commodity&quot;
+          ],
+          &quot;commodityCode&quot;: &quot;7207200075&quot;,
+          &quot;commodityCodeType&quot;: &quot;HTS&quot;,
+          &quot;description&quot;: &quot;SEMIFINISHED IRON/NONALLOW STL&quot;
+        },
+        &quot;productCategory&quot;: &quot;Blooms, Billets and Slabs&quot;,
+        &quot;countryOfMeltAndPour&quot;: &quot;AR&quot;,
+        &quot;weight&quot;: {
+          &quot;type&quot;: [
+            &quot;MeasuredValue&quot;
+          ],
+          &quot;value&quot;: &quot;10000&quot;,
+          &quot;unitCode&quot;: &quot;KGM&quot;
+        },
+        &quot;customsValue&quot;: {
+          &quot;type&quot;: [
+            &quot;MonetaryAmount&quot;
+          ],
+          &quot;value&quot;: 24000,
+          &quot;currency&quot;: &quot;USD&quot;
+        }
+      }
+    ]
+  }
+}
+</div></section><div class="last-modified">Last modified: 06 October 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="prescriptionwithtrustregistry.html" class="navigation-links__prev">Prescription</a><a href="bc-org-book.html" class="navigation-links__next">BC-Org-Book</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b419/app.js"></script></body></html>

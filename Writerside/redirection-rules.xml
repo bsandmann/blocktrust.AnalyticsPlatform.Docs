@@ -26,4 +26,8 @@
         <description>Created after removal of "NetworkReference" from Internal Application Documentation</description>
         <accepts>NetworkReference.html</accepts>
     </rule>
+    <rule id="4d7a8c89">
+        <description>Created after removal of "Development" from Analytics Documentation</description>
+        <accepts>Development.html</accepts>
+    </rule>
 </rules>

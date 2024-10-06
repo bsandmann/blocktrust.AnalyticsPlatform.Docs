@@ -1,0 +1,252 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#EB6237"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-10-06T12:42:10.250361218"><title>BC-Org-Book | Analytics Documentation</title><script type="application/json" id="virtual-toc-data">[{"id":"vp-1","level":0,"title":"VP 1","anchor":"#vp-1"},{"id":"vp-2","level":0,"title":"VP 2","anchor":"#vp-2"},{"id":"vp-3","level":0,"title":"VP 3","anchor":"#vp-3"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b419/app.css" rel="stylesheet"><link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="BC-Org-Book | Analytics Documentation"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Analytics Documentation Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/bc-org-book.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="BC-Org-Book | Analytics Documentation"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/bc-org-book.html#webpage",
+    "url": "writerside-documentation/bc-org-book.html",
+    "name": "BC-Org-Book | Analytics Documentation",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Analytics Documentation Help"
+}</script><!-- End Schema.org --></head><body data-id="BC-Org-Book" data-main-title="BC-Org-Book" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Analytics.md|Analytics///Examples.md|Examples///Credentials.md|Credentials"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Analytics Documentation  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="BC-Org-Book" id="BC-Org-Book.md">BC-Org-Book</h1><section class="chapter"><h2 id="vp-1" data-toc="vp-1">VP 1</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://andrewwhitehead.github.io/anoncreds-w3c-mapping/schema.json&quot;
+  ],
+  &quot;type&quot;: [
+    &quot;VerifiablePresentation&quot;,
+    &quot;AnonCredsPresentation&quot;
+  ],
+  &quot;verifiableCredential&quot;: [
+    {
+      &quot;@context&quot;: [
+        &quot;https://www.w3.org/2018/credentials/v1&quot;,
+        &quot;https://andrewwhitehead.github.io/anoncreds-w3c-mapping/schema.json&quot;,
+        {
+          &quot;@vocab&quot;: &quot;urn:anoncreds:attributes#&quot;
+        }
+      ],
+      &quot;type&quot;: [
+        &quot;VerifiableCredential&quot;,
+        &quot;AnonCredsPresentation&quot;
+      ],
+      &quot;issuer&quot;: &quot;did:indy:sovrin:HR6vs6GEZ8rHaVgjg2WodM&quot;,
+      &quot;issuanceDate&quot;: &quot;2024-04-08T14:43:58Z&quot;,
+      &quot;credentialSchema&quot;: {
+        &quot;type&quot;: &quot;AnonCredsDefinition&quot;,
+        &quot;id&quot;: &quot;did:sov:HR6vs6GEZ8rHaVgjg2WodM:3:CL:41053:tag&quot;,
+        &quot;schema&quot;: &quot;did:sov:HR6vs6GEZ8rHaVgjg2WodM:2:relationship.registries.ca:1.0.42&quot;
+      },
+      &quot;credentialSubject&quot;: {
+        &quot;id&quot;:&quot;did:example:7ba36050-e29d-42a7-9b9d-c4dd4b9a7eb4&quot;,
+        &quot;associated_registration_name&quot;: &quot;&quot;,
+        &quot;registration_id&quot;: &quot;BC0843509&quot;,
+        &quot;effective_date&quot;: &quot;2023-03-07T02:26:01.788262+00:00&quot;,
+        &quot;relationship_status&quot;: &quot;ACT&quot;,
+        &quot;expiry_date&quot;: &quot;&quot;,
+        &quot;relationship&quot;: &quot;Owns&quot;,
+        &quot;relationship_status_effective&quot;: &quot;2023-03-07T02:26:01.788262+00:00&quot;,
+        &quot;associated_registration_id&quot;: &quot;FM1010836&quot;,
+        &quot;reason_description&quot;: &quot;&quot;,
+        &quot;relationship_description&quot;: &quot;Does Business As&quot;
+      },
+      &quot;proof&quot;: {
+        &quot;type&quot;: &quot;AnonCredsPresentationProof2022&quot;,
+        &quot;credential&quot;: {
+          &quot;encoding&quot;: &quot;auto&quot;,
+          &quot;index&quot;: 0,
+          &quot;mapping&quot;: {
+            &quot;revealedAttributes&quot;: {
+              &quot;self-verify-proof&quot;: [
+                &quot;associated_registration_name&quot;,
+                &quot;registration_id&quot;,
+                &quot;effective_date&quot;,
+                &quot;relationship_status&quot;,
+                &quot;expiry_date&quot;,
+                &quot;relationship&quot;,
+                &quot;relationship_status_effective&quot;,
+                &quot;associated_registration_id&quot;,
+                &quot;reason_description&quot;,
+                &quot;relationship_description&quot;
+              ]
+            }
+          },
+          &quot;eqProof&quot;: &quot;AAEAGR3Ppb-Qutm3lAURBs5MRaQFDyz83iqcjCOSx32oZWPJWczNNax6MxGzdLSSVffBPlnyMtcUvZZnUH0v21wYwg8yHHZ__f_vfxQeshe_2dn6p3o3fjDmR6qmPOPVautgAXqzAOdjTaZURmovM00JL-EBkCpHafpV1Dx9WN5EtlwGUYMjSTVtdybLVL16hCD8tig10cmtDXdUQ0rWupJ1fUR5vxe8PrEGWNPyPFadMRTyktNWRZJLYz-l7lh4oHst2SzvnmNEpb0jwqBkhrBsrAG_lPdDeydE8rNVmiuCcE2g4yOWKN-vhXMY-UYXQgf7BVBANv2LuABJXzSeqElqbgEAObeKlLj_t6DnwovGFJgBhzNi4T_iOuB-PpF3bj7lcOhy0wW8Kw6dGI4xyOwk6qyt1jyuFRv3GMzHggIBfwU9h5MKTlCNOK2-5at47r5VPghnOdD6eb713goC-g04rV07C-eXvJZACybqV1dZwQaFWDHabTfeWSdHDLIDaA6JR-Xcsb2QHAJHOonLb5oUfdO76ZUZade1-wQZlqWUt0A7RB5T3wB-EbFzuH1CnR-HO4YvUvw-bpvJ6Le_CtCsm6rMcvNoe4-1n79OwIM6Jxctq4996ebbX5rS-qjiDhOWu0eJsDTF00Er2mZp2APFiUJYEle3kRHYYRRejhk221rMGvrHSi_O1pf7rwu0Vn09ZLt0pd8pZxB5l21wLmvcLUXoJ9M6Dpm0o3ndbvaKjrwsUn2OIpflWsqpMw354h50uVx51poTY1gZ-eBj8K3jVcFk9UNa6b_Xf-de1b_-1MtHZ2M6F3o6-vr7i7IfB86ERvfxw3towPRbyC0kbsVddv_bRk_YbfGJUGyZRYmSs-xNZd6YisR1SsrgodtCCYgIN2LSKtrRCk9Kg4sPdWOis--GAqkfDXFd9m2J7lW6AwBbAA1tYXN0ZXJfc2VjcmV0AEptCYlfc4F8UKhaDmk_0i_OpYvfyQsBJAZDBiRcIzQ5tow0HoPQ8n7VrcSS8tFf3cqWbj-W7RmCjwq5cPxxGuarP5N2kBZDk-39RgQASiceyZBEo04o-vM27YRL1guCJBo87p9u1fCxp_w21jt4AqaovVwXgYcX6TE3XAeOGJCh7knkTffauUVVH9lUSYB3S_yICXkXNQbS&quot;
+        }
+      }
+    }
+  ],
+  &quot;proof&quot;: {
+    &quot;type&quot;: &quot;AnonCredsPresentationProof2022&quot;,
+    &quot;nonce&quot;: &quot;6458099187748906103206&quot;,
+    &quot;aggregated&quot;: &quot;AAAg44sF6uZiFNvVvqFp8VlbPkYDtqyT18JwfLu8gaJKc5YBAQIBABkdz6W_kLrZt5QFEQbOTEWkBQ8s_N4qnIwjksd9qGVjyVnMzTWsejMRs3S0klX3wT5Z8jLXFL2WZ1B9L9tcGMIPMhx2f_3_738UHrIXv9nZ-qd6N34w5keqpjzj1WrrYAF6swDnY02mVEZqLzNNCS_hAZAqR2n6VdQ8fVjeRLZcBlGDI0k1bXcmy1S9eoQg_LYoNdHJrQ13VENK1rqSdX1Eeb8XvD6xBljT8jxWnTEU8pLTVkWSS2M_pe5YeKB7Ldks755jRKW9I8KgZIawbKwBv5T3Q3snRPKzVZorgnBNoOMjlijfr4VzGPlGF0IH-wVQQDb9i7gASV80nqhJam4&quot;
+  }
+}
+
+</div></section><section class="chapter"><h2 id="vp-2" data-toc="vp-2">VP 2</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://andrewwhitehead.github.io/anoncreds-w3c-mapping/schema.json&quot;
+  ],
+  &quot;type&quot;: [
+    &quot;VerifiablePresentation&quot;,
+    &quot;AnonCredsPresentation&quot;
+  ],
+  &quot;verifiableCredential&quot;: [
+    {
+      &quot;@context&quot;: [
+        &quot;https://www.w3.org/2018/credentials/v1&quot;,
+        &quot;https://andrewwhitehead.github.io/anoncreds-w3c-mapping/schema.json&quot;,
+        {
+          &quot;@vocab&quot;: &quot;urn:anoncreds:attributes#&quot;
+        }
+      ],
+      &quot;type&quot;: [
+        &quot;VerifiableCredential&quot;,
+        &quot;AnonCredsPresentation&quot;
+      ],
+      &quot;issuer&quot;: &quot;did:indy:sovrin:HR6vs6GEZ8rHaVgjg2WodM&quot;,
+      &quot;issuanceDate&quot;: &quot;2024-04-08T14:39:10Z&quot;,
+      &quot;credentialSchema&quot;: {
+        &quot;type&quot;: &quot;AnonCredsDefinition&quot;,
+        &quot;id&quot;: &quot;did:sov:HR6vs6GEZ8rHaVgjg2WodM:3:CL:41051:tag&quot;,
+        &quot;schema&quot;: &quot;did:sov:HR6vs6GEZ8rHaVgjg2WodM:2:registration.registries.ca:1.0.42&quot;
+      },
+      &quot;credentialSubject&quot;: {
+        &quot;id&quot;:&quot;did:example:800958fc-f9df-418e-903f-f93dcabb2c43&quot;,
+        &quot;entity_name&quot;: &quot;ARTISAN GUIDE&quot;,
+        &quot;expiry_date&quot;: &quot;&quot;,
+        &quot;entity_status_effective&quot;: &quot;2023-03-06T18:26:01.788262+00:00&quot;,
+        &quot;home_jurisdiction&quot;: &quot;BC&quot;,
+        &quot;registration_date&quot;: &quot;2023-03-06T18:18:23.334202+00:00&quot;,
+        &quot;extra_jurisdictional_registration&quot;: &quot;&quot;,
+        &quot;reason_description&quot;: &quot;&quot;,
+        &quot;registered_jurisdiction&quot;: &quot;BC&quot;,
+        &quot;entity_name_effective&quot;: &quot;2023-03-06T18:26:01.788262+00:00&quot;,
+        &quot;entity_name_trans&quot;: &quot;&quot;,
+        &quot;registration_id&quot;: &quot;FM1010836&quot;,
+        &quot;entity_name_trans_effective&quot;: &quot;&quot;,
+        &quot;effective_date&quot;: &quot;2023-03-06T21:03:01.877003+00:00&quot;,
+        &quot;registration_renewal_effective&quot;: &quot;&quot;,
+        &quot;registration_expiry_date&quot;: &quot;&quot;,
+        &quot;entity_name_assumed_effective&quot;: &quot;&quot;,
+        &quot;entity_status&quot;: &quot;ACT&quot;,
+        &quot;entity_name_assumed&quot;: &quot;&quot;,
+        &quot;entity_type&quot;: &quot;SP&quot;
+      },
+      &quot;proof&quot;: {
+        &quot;type&quot;: &quot;AnonCredsPresentationProof2022&quot;,
+        &quot;credential&quot;: {
+          &quot;encoding&quot;: &quot;auto&quot;,
+          &quot;index&quot;: 0,
+          &quot;mapping&quot;: {
+            &quot;revealedAttributes&quot;: {
+              &quot;self-verify-proof&quot;: [
+                &quot;entity_name&quot;,
+                &quot;expiry_date&quot;,
+                &quot;entity_status_effective&quot;,
+                &quot;home_jurisdiction&quot;,
+                &quot;registration_date&quot;,
+                &quot;extra_jurisdictional_registration&quot;,
+                &quot;reason_description&quot;,
+                &quot;registered_jurisdiction&quot;,
+                &quot;entity_name_effective&quot;,
+                &quot;entity_name_trans&quot;,
+                &quot;registration_id&quot;,
+                &quot;entity_name_trans_effective&quot;,
+                &quot;effective_date&quot;,
+                &quot;registration_renewal_effective&quot;,
+                &quot;registration_expiry_date&quot;,
+                &quot;entity_name_assumed_effective&quot;,
+                &quot;entity_status&quot;,
+                &quot;entity_name_assumed&quot;,
+                &quot;entity_type&quot;
+              ]
+            }
+          },
+          &quot;eqProof&quot;: &quot;AAEBAR7RRWSHCp2D8Lenjfub6qNvIhPivbWfTZwEKygUgwwx2Q0fHJf9mTdSUdGXrkXDWjIX55Kt5gEyHepdWi75m6EWafdlp5Hp1tltpYvvkIVSTxZYmp7QVB6J7d86mtvJ5jTp3q7j_XSZRn6co3fNHFH2X7JhAEXMs9OmWVdX9zcE8tz61rFyG1pDVd7zsQM8F5vnseA1WIEDHMptt8ACHrpzmIGke6zgUDy5lCv3PudrBuwsPTXcKQwWzSiReZWkJNxLKuku8GOojnJX0H4cRdoHz7vIEzCsXuqvU0vxB9zU-kVPaulLyub0VNiNiPFs-4jQf8x9acpZg1R8LbwpS84BADlSCACItvOxCMsM7ri43evHN7ZFxqL6xTHGVpsqZHEs6OA0GArUlBIIigTDxN1s67BJaWmet7-1-ysCAX8Bv11USpM28MQmDOypzIYJpKDn3oWQzVaTvqLyJprkEdS3Y55Rb44rVFbkriKzkBcbfssMyNL6OK1XPqxi-Rq_CdCHdJ3oQsZTv2qvYOBePVc6PRqGn9HBNvDezoZNcT8Kt-DwLoGuqdI8zrjw2GEqulMq18DxG2Ov_cfeKliwHKjj-NdLDk0SpG6-vB4wFgVxaDpFet3lQWzPa1nO7DC9_MlXjTOsFfDk9qhTZ91bCsXG5WnoQiyAhOltcu2dSvWk7gCXskGvPhUH9ehruuapO5puyNoXaSAvvd0vkSS-h8m8ugw0c9tiy9nJiITeHDGLjWTUHnItZH_GCGZEYlawa2PSaORuwELOtQIGdeB9IEbBbVjnFHlEuuWvKxWSL0b8LpUq3yLk2gUZbo74mDz-lmmbERg-7fWqhWeCc2HVtyhLhmokert6D9ubaEAkrhto_yu8GZFOn6O0TNCJzNgTi-UgNHYYeCZl1UH71KoNJf6uHzZRilrlYp8nlAThEAMAWwANbWFzdGVyX3NlY3JldABK6Ok5roDsmku_s-UI65wjDEC_sdrvqujfu0QmrZXiCQHI3tiB_o9qPNCUWi5AjZH14AhLBk4__OQS02721tr3lvhQw80jqiLkhxsEAEq-7ytZwJ9ynnPfy3UaZ8eb3g_f0sb8LB0ewAx2bh_AkK7dNAkaJRcWtFkGGsU83WPyRBryMZ-Kq4BHGf--Z5DBMPJwZ06fZR78yg&quot;
+        }
+      }
+    }
+  ],
+  &quot;proof&quot;: {
+    &quot;type&quot;: &quot;AnonCredsPresentationProof2022&quot;,
+    &quot;nonce&quot;: &quot;687227550842710156307532&quot;,
+    &quot;aggregated&quot;: &quot;AAAgoyJ5sP6rXhpDReQrnqrkbOtXRUcgYrPTsH7v61aAYIEBAQMBAQEe0UVkhwqdg_C3p437m-qjbyIT4r21n02cBCsoFIMMMdkNHxyX_Zk3UlHRl65Fw1oyF-eSreYBMh3qXVou-ZuhFmn3ZaeR6dbZbaWL75CFUk8WWJqe0FQeie3fOprbyeY06d6u4_10mUZ-nKN3zRxR9l-yYQBFzLPTpllXV_c3BPLc-taxchtaQ1Xe87EDPBeb57HgNViBAxzKbbfAAh66c5iBpHus4FA8uZQr9z7nawbsLD013CkMFs0okXmVpCTcSyrpLvBjqI5yV9B-HEXaB8-7yBMwrF7qr1NL8Qfc1PpFT2rpS8rm9FTYjYjxbPuI0H_MfWnKWYNUfC28KUvO&quot;
+  }
+}
+
+</div></section><section class="chapter"><h2 id="vp-3" data-toc="vp-3">VP 3</h2><div class="code-block" data-lang="json">
+{
+  &quot;@context&quot;: [
+    &quot;https://www.w3.org/2018/credentials/v1&quot;,
+    &quot;https://andrewwhitehead.github.io/anoncreds-w3c-mapping/schema.json&quot;
+  ],
+  &quot;type&quot;: [
+    &quot;VerifiablePresentation&quot;,
+    &quot;AnonCredsPresentation&quot;
+  ],
+  &quot;verifiableCredential&quot;: [
+    {
+      &quot;@context&quot;: [
+        &quot;https://www.w3.org/2018/credentials/v1&quot;,
+        &quot;https://andrewwhitehead.github.io/anoncreds-w3c-mapping/schema.json&quot;,
+        {
+          &quot;@vocab&quot;: &quot;urn:anoncreds:attributes#&quot;
+        }
+      ],
+      &quot;type&quot;: [
+        &quot;VerifiableCredential&quot;,
+        &quot;AnonCredsPresentation&quot;
+      ],
+      &quot;issuer&quot;: &quot;did:indy:sovrin:HR6vs6GEZ8rHaVgjg2WodM&quot;,
+      &quot;issuanceDate&quot;: &quot;2024-04-08T14:48:52Z&quot;,
+      &quot;credentialSchema&quot;: {
+        &quot;type&quot;: &quot;AnonCredsDefinition&quot;,
+        &quot;id&quot;: &quot;did:sov:HR6vs6GEZ8rHaVgjg2WodM:3:CL:54759:default&quot;,
+        &quot;schema&quot;: &quot;did:sov:HR6vs6GEZ8rHaVgjg2WodM:2:business_number.registries.ca:1.0.42&quot;
+      },
+      &quot;credentialSubject&quot;: {
+&quot;id&quot;:&quot;did:example:fc447aa4-30c0-40b5-abac-9a0b5f309c70&quot;,
+        &quot;business_number&quot;: &quot;824421291&quot;,
+        &quot;expiry_date&quot;: &quot;&quot;,
+        &quot;registration_id&quot;: &quot;BC0843509&quot;,
+        &quot;effective_date&quot;: &quot;2009-01-14T20:26:14+00:00&quot;,
+        &quot;reason_description&quot;: &quot;&quot;
+      },
+      &quot;proof&quot;: {
+        &quot;type&quot;: &quot;AnonCredsPresentationProof2022&quot;,
+        &quot;credential&quot;: {
+          &quot;encoding&quot;: &quot;auto&quot;,
+          &quot;index&quot;: 0,
+          &quot;mapping&quot;: {
+            &quot;revealedAttributes&quot;: {
+              &quot;self-verify-proof&quot;: [
+                &quot;business_number&quot;,
+                &quot;expiry_date&quot;,
+                &quot;registration_id&quot;,
+                &quot;effective_date&quot;,
+                &quot;reason_description&quot;
+              ]
+            }
+          },
+          &quot;eqProof&quot;: &quot;AAEBAQBAPQDybPft5QTyHP0AbpL-COrtb8pjw8UJAu012DU6fpJok4xODaW6TRa31ufEA5Lub7U_n7Lcdr795HWgR23HHIheiZqKl7FzrN2GYkN6XyXe8Y7TFp-XJJmvgpi6kUjqj2pPQbTjEMtjvXRT5fpitM9DDorYj-EBBkn_OQ94dRWR4T3NSHJQFsuBZKYY0BL-3hela4hRweDuAhWSY2-o6B_Ja-LRxvw97J4YgeD6z3N1VPOxTbNVBWVNfcUIdwCDfzphE-hqtyRXpEFs8EWAOxJi2Sgwqs4E4qJvZTy7xemEOfUqpk-qIWUrPnuuK_UrnK49Qpktp6-XHZNshjoBADmU3pPJC4aHgIOLAj5HrXyO8WXLxgRlH3Y0NiB4M2oNHrvUI9JzgyM2ySXHK32vFGj5NcRpr2cgt6sCAX8LPpx8Aa3Tt2tsKuJ1efKm8SSadpAFJV8cUh0SazHkIc5TXDrXM0Fp11JZ3fz6JNIF1GMVDpu3uNcQ7FZiHIUMJf7Z69E_GmvuO-9HdtmZB-QCrMVhm8jmAWdp5hAHU5FdaNIkQ_j7JRYXby6RUOSyVVI-6VnPY6VkHqwcWqkKQdbcNdrVXav5Vvxjny5OrA0I7BPeWdq5abYVB-nO6xXsfLkH-Y-uA_jt22l9di-Zw2QbjJsIj3FUEqRJ9lNw3g_tcaYS_8qG4Qi8TlOmI3c6xNBOH-EYZoCe8w8A0MHpws5zSKClVrwD8iyFlj1WKHkjqj5Q5KwqwqqvcpQlNah-Nqh_uBmuWGvbbUpqGDp3iipXv6D2OrHBNU7OGnYC-wc0gJGUwX_WYSDRiagohdaOZTZmVHu_4WpK-2GT40n6czmf3W4JI30PU6kxGmGGl8zSjwunQWqWiE_LdY5e_yKj6TB0OGdGJBdx-JLL2go96UlSIUltQ07941tBen96oAMAWwANbWFzdGVyX3NlY3JldABKdng1vsSPIInFAz4Y9kZS9r7dy6sm8xtu8xSbR6-GZlWcOz41MojPxtIWw8kpE_sQ-4x53f0p_htwepqmyb5zouhDXsgf62pkB-kEAErnb1rcUagfMt38XlgzXphVsZxhoSbClSKhjMHGZ1_EAcMcqfHenHgcelpyjOkkplf-CxE9_OsgBNd3Eu57VrcV4Yh3rbl7V5M3Kw&quot;
+        }
+      }
+    }
+  ],
+  &quot;proof&quot;: {
+    &quot;type&quot;: &quot;AnonCredsPresentationProof2022&quot;,
+    &quot;nonce&quot;: &quot;868898228546451514651446&quot;,
+    &quot;aggregated&quot;: &quot;AAAgfFg2hgtpXGUfsJ_y6kknSKLH_i1Aa5ykrxdI-Ht8TrwBAQMBAQEAQD0A8mz37eUE8hz9AG6S_gjq7W_KY8PFCQLtNdg1On6SaJOMTg2luk0Wt9bnxAOS7m-1P5-y3Ha-_eR1oEdtxxyIXomaipexc6zdhmJDel8l3vGO0xaflySZr4KYupFI6o9qT0G04xDLY710U-X6YrTPQw6K2I_hAQZJ_zkPeHUVkeE9zUhyUBbLgWSmGNAS_t4XpWuIUcHg7gIVkmNvqOgfyWvi0cb8PeyeGIHg-s9zdVTzsU2zVQVlTX3FCHcAg386YRPoarckV6RBbPBFgDsSYtkoMKrOBOKib2U8u8XphDn1KqZPqiFlKz57riv1K5yuPUKZLaevlx2TbIY6&quot;
+  }
+}
+
+</div></section><div class="last-modified">Last modified: 06 October 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="traceability.html" class="navigation-links__prev">Traceability</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b419/app.js"></script></body></html>

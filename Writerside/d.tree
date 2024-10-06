@@ -28,8 +28,12 @@
         </toc-element>
         <toc-element topic="Examples.md">
             <toc-element topic="DIDs.md"/>
-            <toc-element topic="Credentials.md"/>
+            <toc-element topic="Credentials.md">
+                <toc-element topic="Travelling-with-minor.md"/>
+                <toc-element topic="PrescriptionWithTrustRegistry.md"/>
+                <toc-element topic="Traceability.md"/>
+                <toc-element topic="BC-Org-Book.md"/>
+            </toc-element>
         </toc-element>
     </toc-element>
-    <toc-element topic="Development.md"/>
 </instance-profile>
